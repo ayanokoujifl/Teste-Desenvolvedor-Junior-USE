@@ -23,6 +23,7 @@ Deixei minha API KEY dispnível no código para poupar o senhor do trabalho de g
 - Requests
 
   Instale as dependências com:
+  
   `pip install fastapi`
 
   `pip install "fastapi[standard]"`
