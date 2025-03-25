@@ -19,6 +19,7 @@ Deixei minha API KEY dispnível no código para poupar o senhor do trabalho de g
 
 - FastAPI
 - SQLite3
+
   Instale a FastAPI com `pip install fastapi`
 
 Para rodar o servidor use o comando `fastapi dev main.py` após se certificar de estar dentro do ambiente virtual `.venv`. O servidor será startado na porta **8000**
