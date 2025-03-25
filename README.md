@@ -9,6 +9,7 @@ Também de antemão, peço perdão por não implementar as funcionalidades hist�
 Como representado na foto, apenas usuários dos planos Professional e Expert tem esse recurso disponível, que é o recurso que eu acredito ser o desejado pelo Senhor na implementação.
 
 O Endpoint seria: `https://history.openweathermap.org/data/2.5/history/city?lat={lat}&lon={lon}&type=hour&start={start}&cnt={cnt}&appid={API key}`
+
 Para filtrar por cidade eu usaria a _Geocode API_ para buscar as coordenadas geográficas da cidade requisitada na chamada da API e aplicar nos parâmetros desse endpoint da _History API_ para filtrar por cidade e data. <u>Talvez eu tenha interpretado mal o verdadeiro propósito com a implementação de uma consulta a dados históricos e por data, se for o caso, _peço humildemente uma nova chance de fazer o teste e provar minha capacidade e demonstrar meu desejo em ser parte da equipe de desenvolvimento_</u>.
 
 # Começando
@@ -42,7 +43,7 @@ Esta é uma <span style="color:#22c3ff;font-weight:bold">API REST</span> que con
 
 # Tutorial
 
-Após instalar as bibliotecas necessárias acessando o ambiente virtual `.venv`, basta rodar o código, abrir a URL em um software para avaliação de requisições como o **_Postman_** ou **_Insomnia_**, ou rodar no Browser mesmo e acessar a porta **8000** rota `/weather/{city}`
+Após instalar as bibliotecas necessárias dentro do ambienre virtual python, basta rodar o código, abrir a URL em um software para avaliação de requisições como o **_Postman_** ou **_Insomnia_**, ou rodar no Browser mesmo e acessar a porta **8000** rota `/weather/{city}`
 
 ### Exemplo:
 
