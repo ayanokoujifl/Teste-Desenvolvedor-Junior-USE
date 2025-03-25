@@ -19,10 +19,16 @@ Deixei minha API KEY dispnível no código para poupar o senhor do trabalho de g
 
 - FastAPI
 - SQLite3
+- Requests
 
-  Instale a FastAPI com `pip install fastapi`
+  Instale as dependências com:
+  `pip install fastapi`
 
-Para rodar o servidor use o comando `fastapi dev main.py` após se certificar de estar dentro do ambiente virtual `.venv`. O servidor será startado na porta **8000**
+  `pip install "fastapi[standard]"`
+
+  `pip install requests"`
+
+Para rodar o servidor use o comando `fastapi dev main.py` após se certificar de estar dentro de um ambiente virtual python e com as dependências devidamente instaladas. O servidor será startado na porta **8000**
 Esta é uma <span style="color:#22c3ff;font-weight:bold">API REST</span> que conta com uma rota para buscar as seguintes informações por **cidade**:
 
 - Temperatura
