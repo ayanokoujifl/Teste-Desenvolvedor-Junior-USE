@@ -4,9 +4,6 @@ import sqlite3
 
 app = FastAPI()
 
-
-
-
 def get_db_connection():
   db = sqlite3.connect("weather.db")
   cursor = db.cursor()
